@@ -1,6 +1,15 @@
 .wrapper{
     display: grid;
     grid-template-columns: 70% 30%;
+
+    /* To separate columns */
+    grid-column-gap: 1em;
+
+    /* To separate rows */
+    grid-row-gap: 1em;
+
+    /* Do both row and column */
+    /* grid-gap: 1em; */
 }
     .wrapper > div{
         background: #eee;
