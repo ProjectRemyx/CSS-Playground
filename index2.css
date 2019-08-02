@@ -5,6 +5,10 @@
 
     /* Grid height */
     grid-auto-rows: minmax(100px, auto);
+
+    /* Justify Content */
+    justify-items: stretch;
+    align-items: stretch;
 }
     .wrapper > div{
         background: #eee;
@@ -24,3 +28,7 @@
         border: #333 1px solid;
         padding: 1em;
     }
+
+.box1{
+    align-self: end;
+}
